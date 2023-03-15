@@ -283,7 +283,7 @@ main{
 /*--------------------<Contato>-------------------*/
 #contato{
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
