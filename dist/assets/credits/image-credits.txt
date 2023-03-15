@@ -1,0 +1,108 @@
+CLOUND IMAGE
+<a href="https://www.flaticon.com/free-icons/cloud" title="cloud icons">Cloud icons created by juicy_fish - Flaticon</a>
+
+
+SATURN IMAGE
+<a href="https://www.flaticon.com/free-icons/solar-system" title="solar system icons">Solar system icons created by Freepik - Flaticon</a>
+
+
+HTML CLOUND IMAGE
+<a href="https://www.flaticon.com/free-icons/code" title="code icons">Code icons created by Vector Stall - Flaticon</a>
+
+
+
+
+
+
+
+<!--Projeto 1-->
+             <div class="card custom-bg">
+                <div class="card__image-container">
+                </div>
+        
+                <svg class="card__svg" viewBox="0 0 800 500">
+        
+                    <path
+                        d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400 L 800 500 L 0 500"
+                        stroke="transparent" fill="rgb(22, 27, 37)"></path>
+                    <path class="card__line"
+                        d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400" stroke="pink"
+                        stroke-width="3" fill="transparent"></path>
+                </svg>
+        
+                <div class="card__content">
+                    <div class="card__bio">
+                        <p class="card__title">CryptoPrice</p>
+                        <p>
+                            É uma aplicação mobile que permite ver o preço de crypto-moedas em tempo real.
+                        </p>
+                    </div>
+        
+                    <button id="card_download_button" class="btn btn-outline-danger" data-bs-toggle="tooltip" data-bs-placement="right"
+                        data-bs-title="Tooltip on right">
+                        Baixar <i class="fas fa-download"></i>
+                    </button>
+                </div>
+            </div>
+
+
+            <!--Projeto 2-->
+            <div class="card custom-bg">
+                <div class="card__image-container">
+                </div>
+        
+                <svg class="card__svg" viewBox="0 0 800 500">
+        
+                    <path
+                        d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400 L 800 500 L 0 500"
+                        stroke="transparent" fill="rgb(22, 27, 37)"></path>
+                    <path class="card__line"
+                        d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400" stroke="pink"
+                        stroke-width="3" fill="transparent"></path>
+                </svg>
+        
+                <div class="card__content">
+                    <div class="card__bio">
+                        <p class="card__title">Aplicativo de Estudos</p>
+                        <p>
+                            Aplicativo que permite criar e egerenciar cronogramas de estudo.
+                        </p>
+                    </div>
+        
+                    <button id="card_download_button" class="btn btn-outline-danger" data-bs-toggle="tooltip" data-bs-placement="right"
+                        data-bs-title="Tooltip on right">
+                        Baixar <i class="fas fa-download"></i>
+                    </button>
+                </div>
+            </div>
+
+            
+            <!--Projeto 3-->
+            <div class="card custom-bg">
+                <div class="card__image-container">
+                </div>
+        
+                <svg class="card__svg" viewBox="0 0 800 500">
+        
+                    <path
+                        d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400 L 800 500 L 0 500"
+                        stroke="transparent" fill="rgb(22, 27, 37)"></path>
+                    <path class="card__line"
+                        d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400" stroke="pink"
+                        stroke-width="3" fill="transparent"></path>
+                </svg>
+        
+                <div class="card__content">
+                    <div class="card__bio">
+                        <p class="card__title">Aplicação de gerenciamento financeiro</p>
+                        <p>
+                            É uma plicação desktop cujo objetivo é o gerenciamento e o controle financeiro, foi desenvolvida em Typescript e Electrom. 
+                        </p>
+                    </div>
+        
+                    <button id="card_download_button" class="btn btn-outline-danger" data-bs-toggle="tooltip" data-bs-placement="right"
+                        data-bs-title="Tooltip on right">
+                        Baixar <i class="fas fa-download"></i>
+                    </button>
+                </div>
+            </div>
