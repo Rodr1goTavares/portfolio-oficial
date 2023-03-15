@@ -23,13 +23,13 @@ export class Tech_info{
                     
                     case "ts":
                         if (techText !== null) {
-                        techText.innerHTML = `O Typescript foi a primeira vez que tive contato com tipagem estática, o ts me ajudou muito a aprender POO (Programação Orientda à Objetos) e serviu de porta de entrada para o Java.`;
+                        techText.innerHTML = `O Typescript foi a primeira linguagem com tipagem estática que usei. O ts me ajudou muito a aprender POO e serviu de porta de entrada para o Java. (Utilizei o Typescript para fazer este site).`;
                       }
                       break;
   
                     case "js":
                       if (techText !== null){
-                        techText.innerHTML = `O Javascript foi a primeira linguagem que eu aprendi, foi com ela que eu adiquiri toda a base da programação. (Utilizei ela para fazer este site).`;
+                        techText.innerHTML = `O Javascript foi a primeira linguagem que eu aprendi, foi com ela que eu adiquiri toda a base da programação.`;
                       }
                       break;
   
