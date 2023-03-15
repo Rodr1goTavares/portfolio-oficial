@@ -322,6 +322,10 @@ h3{
     height: 70%;
   }
 
+  #ts-bt:hover #ts-icon{
+    filter: grayscale(100%) invert(100%) brightness(150%);
+  }
+
   /*------------------<Card-experiencias>------------------*/
   #card-experiencias{
     padding-inline: 0;
