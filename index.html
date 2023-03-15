@@ -23,7 +23,7 @@
 </head>
 <body class="custom-bg2">
     <header>
-        <nav id="nav-bar" class="navbar navbar-dark custom-bg2 top">
+        <nav id="nav-bar" class="navbar navbar-dark custom-bg top">
             <div class="container-fluid">
                 <a class="navbar-brand d-flex flex-warp" href="#"><strong class="logo-txt-color">{Rodrigo</strong>
                     <strong>Tavares}</strong>
@@ -381,9 +381,9 @@
                 </div>
                 <div class="card-body" id="contato-card-body">
                     <div id="card-form">
-                        <form method="post" action="mailto:rodr1gowzxz2@gmail.com">
-                            <input type="text" required="true" placeholder="Nome">
-                            <input type="email" required="true" placeholder="Email">
+                        <form method="post" action="https://formsubmit.co/rodr1gowzxz2@gmail.com" enctype="text/plain">
+                            <input id="name" type="text" required="true" placeholder="Nome">
+                            <input id="email" type="email" required="true" placeholder="Email">
                         </form>
                         
                         
@@ -394,10 +394,12 @@
                             <textarea id="message" name="message" required="true" placeholder="Mensagem"></textarea>
                         </div>
     
-                        <button type="submit" class="btn btn-outline-danger" id="confirm-form">
+                        <button type="button" class="btn btn-outline-danger" id="confirm-email">
                             <i class="fas fa-envelope"></i> Enviar
                         </button>
                     </div>
+
+                    
                 </div>
             </div>
         </section>
@@ -406,7 +408,7 @@
     <footer class="custom-bg2">
         <div class="footer text-center">
             <div class="footer-body">
-                <h5 class="footer-title">&copy; RodrigoTavares 2023</h5>
+                <h5 class="footer-title">&copy; RodrigoTavares <i id="date"></i></h5>
               <a href="https://www.flaticon.com/free-icons/cloud" title="cloud icons">Cloud icon created by juicy_fish - Flaticon</a>
             </div>
           </div>

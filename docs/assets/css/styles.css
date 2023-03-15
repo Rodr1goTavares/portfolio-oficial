@@ -295,9 +295,9 @@ main{
 }
 
 footer{
-  color: rgba(236, 12, 61, 0.76);
+  color: rgba(99, 99, 99, 0.403);
   padding: 10px;
-  border-top: 2px solid;
+  border-top: 1px solid;
   margin-top: 200px;
 }
 
