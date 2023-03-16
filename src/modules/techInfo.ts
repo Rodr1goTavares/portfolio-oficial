@@ -11,19 +11,19 @@ export class Tech_info{
                 switch(tech){
                     case "java":
                         if (techText !== null) {
-                            techText.innerHTML = `Java é a linguagem que eu estudo atualmente. Sempre estive só no javascript e typescript, porém, gostei muito e java e desejo fazer dela a minha linguagem principal.`;
+                            techText.innerHTML = `Java é a linguagem que eu estudo atualmente. Sempre estive só no Javascript e Typescript, porém, gostei muito do Java e desejo fazer dela a minha linguagem principal.`;
                         }
                         break;
                     
                     case "node":
                         if (techText !== null) {
-                            techText.innerHTML = `Já utilizei muito o node para criar bots para o discord. Com ele, eu tive um boa bagagem com consumo de APIs, sem contar o uso do npm, que é fundamental.`;
+                            techText.innerHTML = `Já utilizei muito o node para criar bots para o discord. Com ele, eu tive um boa bagagem com consumo de APIs, sem contar o uso do NPM, que é fundamental.`;
                         }
                         break;
                     
                     case "ts":
                         if (techText !== null) {
-                        techText.innerHTML = `O Typescript foi a primeira linguagem com tipagem estática que usei. O ts me ajudou muito a aprender POO e serviu de porta de entrada para o Java. (Utilizei o Typescript para fazer este site).`;
+                        techText.innerHTML = `O Typescript me ajudou muito a aprender POO e serviu de porta de entrada para o Java. (Utilizei o Typescript na construção deste site).`;
                       }
                       break;
   
@@ -41,7 +41,7 @@ export class Tech_info{
   
                     case "css":
                       if (techText !== null){
-                        techText.innerHTML = `Também é outra ferramenta de suma importância para o desenvolvimento front-end e estilização, tenho muita bagaem com ela e com o html.`;
+                        techText.innerHTML = `Também é outra ferramenta de suma importância para o desenvolvimento Front-end, tenho muita bagaem com ela e com o HTML.`;
                       }
                       break;
   
@@ -53,13 +53,13 @@ export class Tech_info{
   
                     case "bootstrap":
                       if (techText !== null){
-                        techText.innerHTML = `É um framework front-end extremamente útil e que agiliza bastante o desenvolvimento. Foi bastante útil na construção deste site.`;
+                        techText.innerHTML = `É uma ferramenta que agiliza bastante o desenvolvimento Front-end. Foi bastante útil na construção deste site.`;
                       }
                       break;
   
                     case "git":
                       if (techText !== null){
-                        techText.innerHTML = `É uma ferramente de versionamento extremamente útil e que utilizo bastante. Caso queira acessar o meu github e ver alguns dos meus reposítórios, basta ir ao início desta página.`;
+                        techText.innerHTML = `É uma ferramente de versionamento extremamente útil. Caso queira acessar o meu github e ver meus reposítórios, basta ir ao início desta página.`;
                       }
                       break;              
                 }
