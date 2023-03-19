@@ -1,4 +1,4 @@
-# portifolio-oficial
-< Meu portifolio pessoal >
+# portfolio-oficial
+< Meu portfolio pessoal >
 
 { em desenvolvimento }
