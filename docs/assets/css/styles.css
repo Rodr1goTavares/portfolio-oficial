@@ -319,7 +319,6 @@ footer{
 
 
 
-
 /*### Barra de rolagem ###*/
 body::-webkit-scrollbar {
   width: 12px;               
@@ -354,14 +353,17 @@ body::-webkit-scrollbar-thumb {
 
     #card-contato{
       width: 350px;
-      height: 480px;  
+      
       justify-content: center;
       align-items: center;
     }
 
     #contato-card-body{
+      display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
+      height: 100%;
     }
 
     textarea{
@@ -440,7 +442,6 @@ body::-webkit-scrollbar-thumb {
 
     #card-contato{
       width: 350px;
-      height: 480px;
     }
     
     #card-form{
@@ -515,10 +516,6 @@ body::-webkit-scrollbar-thumb {
   /*813*/
   @media (max-width: 813px){
     #tecnologias{
-      flex-direction: column;
-    }
-
-    #contato{
       flex-direction: column;
     }
   }
