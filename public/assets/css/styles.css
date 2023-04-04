@@ -294,11 +294,31 @@ main{
   border-top: solid 1px;
 }
 
+
 footer{
+  right: 0;
+  position: absolute;
+  min-width: 100%;
   color: rgba(99, 99, 99, 0.403);
   padding: 10px;
   border-top: 1px solid;
   margin-top: 200px;
+  margin-right: 0;
+
+  background-color: aqua;
+  border: solid 1px;
+}
+
+#footer-container{
+  min-width: 100%;
+}
+
+.footer-body{
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 
@@ -373,8 +393,6 @@ body::-webkit-scrollbar-thumb {
     #card-form{
       justify-content: center;
     }
-
-
   }
 
   /*1366*/
@@ -393,7 +411,6 @@ body::-webkit-scrollbar-thumb {
     }
 
   #tecnologias{
-    
       justify-content: space-around;
     }
   }
@@ -429,13 +446,16 @@ body::-webkit-scrollbar-thumb {
       width: 350px;
       height: 480px;
     }
-
+    
     #card-form{
       justify-content: center;
       align-items: center;
-      padding: 0;
+      flex-wrap: wrap;
+
+      max-width: 350px;
     }
-    
+   
+
     .card-body{
       justify-content: center;
       align-items: center;
@@ -587,6 +607,4 @@ body::-webkit-scrollbar-thumb {
       font-size: 1.2rem;
       color: rgb(255, 255, 255);
     }
-
-   
   }
