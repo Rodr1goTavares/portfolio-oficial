@@ -11,13 +11,25 @@ export class Tech_info{
                 switch(tech){
                     case "java":
                         if (techText !== null) {
-                            techText.innerHTML = `Java é a linguagem que eu estudo atualmente. Sempre estive só no Javascript e Typescript, porém, gostei muito do Java e desejo fazer dela a minha linguagem principal.`;
+                            techText.innerHTML = `Java atualmente é minha linguagem principal, e é onde eu quero me especializar cada vez mais.`;
+                        }
+                        break;
+
+                      case "spring":
+                        if(techText !== null){
+                          techText.innerHTML = `Spring é um framework de Java muito útil e que agiliza bastante o desenvolvimento.`;
+                        }
+                        break;
+
+                      case "mysql":
+                        if(techText !== null){
+                          techText.innerHTML = `MySQL é o banco de dados relacional que eu domino atualmente. Já fiz alguns CRUDs em Java utilzando ele.`;
                         }
                         break;
                     
                     case "node":
                         if (techText !== null) {
-                            techText.innerHTML = `Já utilizei muito o node para criar bots para o discord. Com ele, eu tive um boa bagagem com consumo de APIs, sem contar o uso do NPM, que é fundamental.`;
+                            techText.innerHTML = `Já utilizei muito o node para criar bots para o discord e entre outros projetos menores. Foi com ele que eu tive uma noção do Back-end.`;
                         }
                         break;
                     
@@ -42,12 +54,6 @@ export class Tech_info{
                     case "css":
                       if (techText !== null){
                         techText.innerHTML = `Também é outra ferramenta de suma importância para o desenvolvimento Front-end, tenho muita bagaem com ela e com o HTML.`;
-                      }
-                      break;
-  
-                    case "sass":
-                      if (techText !== null){
-                        techText.innerHTML = `SCSS é uma ferramenta extremamente útil, pois adiciona várias funcionalides lógicas ao CSS.`;
                       }
                       break;
   
